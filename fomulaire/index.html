@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+       <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f37179b0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <form action="https://formspree.io/f/mwplvovp" method="POST" >
+<section> 
+
+
+  <img src="logo.svg" alt="logo" width="200">
+        <h1>Formulaire d'inscription</h1> <br><br>
+	  <h2> Formations Professionnalisantes à la programmation financière </h2>
+    <br>
+ <hr>  
+ <h3> Votre Identité </h3>
+        <!-- Identité 
+      <label for="container" > Identité</label> <br><br> --><br>
+        <div class="input-box">
+            <i class="fa-solid fa-user-tie"></i>    
+        <input type="Nom" placeholder="Votre nom" id="nom" name="nom" required>
+        <i class="fa-solid fa-user-tie"></i>
+        <input type="Postnom" placeholder="Votre Post-nom" id="post-nom" name="post-nom" required><br><br>
+        <i class="fa-solid fa-user-tie"></i>
+        <input type="Prenom" placeholder="Votre Prénom" id="prenom" name="prenom" required>       
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Votre E-mail" id="email" name="email" required> <br><br>  
+        <i class="fa-solid fa-phone-volume"></i>
+        <input type="tel" id="telephone" name="telephone" placeholder="Entrez votre numéro" pattern="[0-9]{10}" required> 
+        <i class="fa-solid fa-user-doctor"></i>
+        <input type="Travail" placeholder="Votre Profession actuelle" id="travail" name="travail" required>
+    <br>    
+     
+</div>
+<hr> <h3> Choix de la formation </h3><hr> <br>
+<label for="Montant"> Quelle formation vous voulez :</label>
+<select id="Formation" name="Formation choisie" required>
+    <option value="Valeur defaut" selected> </option>
+      <option value="Programmation financière"> Programmation financière</option>
+      <option value="Logistique d'achat"> Logistique d'achat supply chain </option>
+      <option value="Payroll"> Payroll</option>
+</select>
+<br><br> 
+ <!-- Date de naissance 
+ <label for="dob">Date de naissance :</label>
+ <input type="date" id="dob" name="dob" required> -->   
+      <!-- Niveau d'étude --> 
+      <label for="etude"> Votre niveau d'étude :</label>
+      <select id="dip" name="diplome" required>
+		  <option value="Educ" selected> </option>
+        <option value="Etudiant">Etudiant</option>
+          <option value="Diplomé">Diplomé</option>
+          <option value="Gradué">Gradué</option>
+          <option value="Licencié">Licencié</option>
+          <option value="Master">Master</option>
+         
+        </select>  <br><br>
+        <label for="Formation"> Combien êtes-vous prêt à payer :</label>
+        <select id="choix" name="Montant à payer" required>
+          <option value="option1" selected></option>
+            <option value="300-400$">300$ à 400$ </option>
+            <option value=" 400-500$" >400$ à 500$</option>
+            <option value="500-600$">500$ à 600$</option>
+            
+        </select>     <br><br>
+         <!-- Genre -->
+         <label for="genre" name="sexe"> Genre :</label>
+         <input type="radio" id="homme" name="genre" value="homme" required> Homme
+         <input type="radio" id="femme" name="genre" value="femme" required> Femme
+
+      
+     
+      <br><br>
+	
+        <!-- Importation photo-->
+         <label for="image" nama="image"> Importez votre photo passport </label>
+	  <input type="file" id="photo" name="photo" accept="image/*" required>
+	   <br><br><br>
+      
+      
+        <!-- Bouton d'envoi -->
+        <button type="submit" name="envoyer"> Envoyer</button> <br>
+	 
+
+	  <footer>Formulaire conçu et herbergé par Milton KANKU</footer>
+	
+	</section>
+    </form>
+  
+</body> 
+
+</html>
