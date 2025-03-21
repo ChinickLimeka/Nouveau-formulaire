@@ -79,10 +79,14 @@ img{
     color: #ffffff;
     padding-left: 30px;
      }
-
+h3{
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .input-box input::placeholder {
-    color: #ffffff;
-    font-style: bold;
+  color: #ffffffbe;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align:start;
 }
 .input-box i {  
     position: relative; 
